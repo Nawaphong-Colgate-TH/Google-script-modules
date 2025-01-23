@@ -7,7 +7,7 @@ The `getLastNo` function retrieves the last number from a specified column in a 
 ## Function Signature
 
 ```javascript
-function getLastNo(sheet) {
+function getLastNo(sheet, noColNum) {
   const lastRow = sheet.getLastRow();
   const lastNo = sheet.getRange(lastRow, noColNum).getValue();
   var result;
@@ -26,12 +26,13 @@ This function is useful when you need to generate the next number in a sequence 
 ## Parameters
 
 - `sheet` (object): The Google Sheets object representing the sheet from which to retrieve the last number.
+- `noColNum` (number): The column number where the numbers are stored.
 
-## Parameters
+## Examples
 
 ```javascript
 const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Sheet1');
-const nextNumber = getLastNo(sheet);
+const nextNumber = getLastNo(sheet, 2); // Assuming the numbers are in the second column
 Logger.log(nextNumber); // Output: The next number in the sequence
 ```
 
