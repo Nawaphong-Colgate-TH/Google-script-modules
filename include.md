@@ -42,6 +42,6 @@ In this example, `header.html` and `footer.html` are HTML files within the same 
 
 ## Notes
 
-Ensure that the `fileName` parameter corresponds to an existing HTML file in your Google Apps Script project.
-The function returns the content of the HTML file as a string, which can be inserted into other HTML templates using `<?!= include('fileName') ?>`.
-Helps in managing and organizing HTML content efficiently, especially in larger projects where reusable components are beneficial.
+- Ensure that the `fileName` parameter corresponds to an existing HTML file in your Google Apps Script project.
+- The function returns the content of the HTML file as a string, which can be inserted into other HTML templates using `<?!= include('fileName') ?>`.
+- Helps in managing and organizing HTML content efficiently, especially in larger projects where reusable components are beneficial.
