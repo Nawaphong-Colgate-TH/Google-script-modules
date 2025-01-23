@@ -74,7 +74,7 @@ In this example, data for the 'Staff' sheet is retrieved and logged, with each o
 
 ## Notes
 
-Ensure that the `initSpreadSheet` function has been called to properly initialize all necessary global variables and sheet references.
-The function assumes each sheet has a header row which maps to object keys in each returned data entry.
-If no data is found in the sheet, the function returns an empty array.
-It includes custom date formatting if the `last comments date` field is present.
+- Ensure that the `initSpreadSheet` function has been called to properly initialize all necessary global variables and sheet references.
+- The function assumes each sheet has a header row which maps to object keys in each returned data entry.
+- If no data is found in the sheet, the function returns an empty array.
+- It includes custom date formatting if the `last comments date` field is present.
