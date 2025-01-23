@@ -49,8 +49,8 @@ Logger.log("Data save status: " + status);
 
 - Sheet Initialization: Ensure `initSpreadSheet` is effectively setting up the `dataSheet` variable where the data is to be appended.
 - Utilities and Dependencies: The function relies on auxiliary functions such as `getUser`, `getCustomUUID`, and `getLastNo`. Ensure these are correctly defined to avoid runtime errors.
-    `getUser()`: Returns the active user's email.
-    `getCustomUUID()`: Should generate a unique identifier.
-    `getLastNo(sheet)`: Determines the next sequential number or identifier.
+    - `getUser()`: Returns the active user's email.
+    - `getCustomUUID()`: Should generate a unique identifier.
+    - `getLastNo(sheet)`: Determines the next sequential number or identifier.
 - Data Security: Be cautious while managing user data, ensuring you comply with privacy policies and guidelines.
 - FormObject Usage: If additional form data is necessary, consider updating the implementation to include more fields from `formObject`.
