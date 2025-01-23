@@ -2,7 +2,7 @@
 
 ## Description
 
-The `updateDataValu`e function updates specific cell values in a Google Sheets document based on a given identifier. It searches for a row that matches the provided `detailId` from the input object and updates several columns such as the update timestamp, the user making the update, and status information. This function is useful for maintaining and managing dynamic data records, allowing for modifications to existing entries.
+The `updateDataValue` function updates specific cell values in a Google Sheets document based on a given identifier. It searches for a row that matches the provided `detailId` from the input object and updates several columns such as the update timestamp, the user making the update, and status information. This function is useful for maintaining and managing dynamic data records, allowing for modifications to existing entries.
 
 ## Function Signature
 
