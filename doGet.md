@@ -36,4 +36,12 @@ This function is useful for serving different web pages from a Google Apps Scrip
 
 - `event` (object): The event parameter containing data about the HTTP request, such as the pathInfo that indicates which page is requested.
 
+## Notes
+
+- Valid pages are defined in the `validPages` array. Ensure this array contains all the page names you intend to serve.
+- Ensure template files (e.g., 'detail.html', 'timeline.html', 'lists.html') exist within the script project.
+- The `addMetaTag` method is used to ensure pages are responsive on all device screens.
+- The `setXFrameOptionsMode` allows embedding, which can be adjusted or removed based on your security policies.
+
+
 
