@@ -12,6 +12,7 @@ function getCustomUUID() {
   rawId = rawId.slice(0, 12);
   return rawId;
 }
+```
 
 ## Usage
 
@@ -19,3 +20,4 @@ This function is useful when you need a lightweight, unique identifier for use w
 ```javascript
 let customUUID = getCustomUUID();
 console.log(customUUID); // Output: A unique 12-character string
+```
