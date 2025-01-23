@@ -31,9 +31,9 @@ These functions are particularly useful in applications that need to manipulate 
 ## Parameters
 
 - `extractFileIdFromUrl`:
-    `url` (string): The Google Drive file URL from which to extract the file ID.
+    - `url` (string): The Google Drive file URL from which to extract the file ID.
 - `reUrlImage`:
-    `url` (string): The original Google Drive file URL intended for image URL conversion.
+    - `url` (string): The original Google Drive file URL intended for image URL conversion.
 
 ## Examples
 
