@@ -44,6 +44,6 @@ In this example, after initializing, you can directly use `dataSheet` to interac
 
 ## Notes
 
-The global variables `sheetId` and `sheetName` must be set to valid values before calling initSpreadSheet.
-It is important to ensure that the Google Sheets ID and the sheet name are correct and that you have appropriate permissions to access the sheet.
-The function sets up global variables (`ss` and `dataSheet`) which are required for subsequent Google Sheets API operations within the script.
+- The global variables `sheetId` and `sheetName` must be set to valid values before calling initSpreadSheet.
+- It is important to ensure that the Google Sheets ID and the sheet name are correct and that you have appropriate permissions to access the sheet.
+- The function sets up global variables (`ss` and `dataSheet`) which are required for subsequent Google Sheets API operations within the script.
