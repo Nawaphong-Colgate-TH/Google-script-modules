@@ -17,4 +17,4 @@ function formResponse(e) {
 }
 ```
 
-![Add Trigger](Add Trigger.png)
+![Add Trigger](AddTrigger.png)
