@@ -1,10 +1,13 @@
 # Chapter #5 Google Apps Script with Google Forms
 
 ```javascript
-/**
- * Handles form responses by logging each response in detail.
- * @param {Object} e - The event object containing form response data.
- */
+function formResponse(e) {
+  var results = e.namedValues;
+  console.log(results);
+}
+```
+
+```javascript
 function formResponse(e) {
   var results = e.namedValues;
   console.log('Form submission received:');
@@ -16,5 +19,7 @@ function formResponse(e) {
   }
 }
 ```
+
+### Triggers set up
 
 ![Add Trigger](AddTrigger.png)
