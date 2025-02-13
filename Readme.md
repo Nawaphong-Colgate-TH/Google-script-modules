@@ -90,3 +90,24 @@ function myFunction() {
   cellRange.setValue(10);
 }
 ```
+
+- `getRange(row, column, numRows)`
+```javascript
+function myFunction() {
+  // Call the initial function to set up your sheet environment
+  initial();
+
+  // Assume initial() function defines the 'sheet' variable
+  // Get a range of cells starting from row 1, column 1 to row 3, column 1
+  var cellRange = sheet.getRange(1, 1, 3);
+
+  // Retrieve the current values in the defined cell range
+  var currentValues = cellRange.getValues();
+  
+  // Log the retrieved values to the console as a 2D array
+  console.log(currentValues);
+
+  // Set all cells in the range to the value 99
+  cellRange.setValue(99);
+}
+```
