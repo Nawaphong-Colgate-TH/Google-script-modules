@@ -149,17 +149,24 @@ function myFunction() {
   initial();
 
   // Assume initial() function correctly defines the 'sheet' variable
-  // Define the range covering cells from A1 to C3
-  var cellRange = sheet.getRange("A1:C3");
-
   // Get the last row number within the specified range
-  var lastRow = cellRange.getLastRow();
+  var lastRow = sheet.getLastRow();
 
   // Get the last column number within the specified range
-  var lastColumn = cellRange.getLastColumn();
+  var lastColumn = sheet.getLastColumn();
 
   // Log the last row and last column numbers to the console
   console.log({lastRow, lastColumn});
+
+  // Get the values of the last row from the first column to the last column
+  var currentValues = sheet.getRange(lastRow, 1, 1, lastColumn).getValues();
+
+  // Get the values of the last column from the first row to the last row
+  var currentValues = sheet.getRange(1, lastColumn, lastRow, 1).getValues();
+
+
+  // Log the values of the last row to the console
+  console.log(currentValues);
 }
 ```
 Key Points:
