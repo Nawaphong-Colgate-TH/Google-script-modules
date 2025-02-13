@@ -1,6 +1,5 @@
 # Google Apps Script - Beginner 101
 
-## getActiveSpreadsheet
 
 ```javascript
 function myFunction() {
@@ -37,8 +36,24 @@ function myFunction() {
 
 ```javascript
 function myFunction() {
-  var ss = SpreadsheetApp.openByUrl(url);
+  var ss = SpreadsheetApp.getActive();
+  // var ss = SpreadsheetApp.getActiveSpreadsheet();
+  // var ss = SpreadsheetApp.openByUrl(url);
   // var ss = SpreadsheetApp.openById(id);
+
   Logger.log(ss.getName());
+}
+```
+
+## sheet
+
+```javascript
+function myFunction() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  // var sheet = ss.getActiveSheet();
+  // var sheet = ss.getSheetByName('Sheet2');
+  // var sheets = ss.getSheets();
+
+  Logger.log(sheet);
 }
 ```
