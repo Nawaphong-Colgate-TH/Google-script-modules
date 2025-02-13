@@ -23,7 +23,7 @@ function myFunction() {
 
 ```
 
-## สร้างไฟล์ใหม่
+## Creating new file
 
 ```javascript
 function myFunction() {
@@ -32,7 +32,7 @@ function myFunction() {
 }
 ```
 
-## เปิดไฟล์
+## Accessing a spreadsheet
 
 ```javascript
 function myFunction() {
@@ -45,7 +45,7 @@ function myFunction() {
 }
 ```
 
-## sheet
+## Accessing a sheet
 
 ```javascript
 function myFunction() {
