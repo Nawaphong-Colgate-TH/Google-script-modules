@@ -15,5 +15,6 @@ function formResponse(e) {
     }
   }
 }
+```
 
 ![Add Trigger](Add Trigger.png)
