@@ -19,4 +19,4 @@ function test() {
 }
 ```
 
-![Header Image(https://media.geeksforgeeks.org/wp-content/uploads/20240410101419/Getting-Started-with-Array-Data-Structure.webp)](https://www.geeksforgeeks.org/what-is-array/)
+[![N|Solid](https://media.geeksforgeeks.org/wp-content/uploads/20240410101419/Getting-Started-with-Array-Data-Structure.webp)](https://www.geeksforgeeks.org/what-is-array/)
