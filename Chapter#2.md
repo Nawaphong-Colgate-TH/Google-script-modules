@@ -19,7 +19,9 @@ function test() {
 }
 ```
 
+## What is Array?
+    - Array is a linear data structure where all elements are arranged sequentially. It is a collection of elements of same data type stored at contiguous memory locations. 
 [![What is Array](https://media.geeksforgeeks.org/wp-content/uploads/20240410101419/Getting-Started-with-Array-Data-Structure.webp)](https://www.geeksforgeeks.org/what-is-array/)
 
-
+### 2-Dimensionnal Arrays
 [![What is Array 2D](https://journaldev.nyc3.cdn.digitaloceanspaces.com/2020/03/2D-array-representation.png)](https://www.digitalocean.com/community/tutorials/two-dimensional-array-in-c-plus-plus)
