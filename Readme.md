@@ -125,6 +125,7 @@ function myFunction() {
   // Assume initial() function defines the 'sheet' variable
   // Get a range of cells starting from row 1, column 1, spanning 3 rows and 3 columns
   var cellRange = sheet.getRange(1, 1, 3, 3);
+  // var cellRange = sheet.getRange("A1:C3");
 
   // Retrieve the current values in the defined cell range
   var currentValues = cellRange.getValues();
@@ -139,3 +140,30 @@ function myFunction() {
 Key Points:
 
 **Range Selection:** `getRange(1, 1, 3, 3)` selects a block of cells from A1 to C3, meaning all cells in the first three rows and columns of the sheet.
+
+
+- `etLastRow()`, `getLastColumn()`
+```javascript
+function myFunction() {
+  // Perform initial setup, such as accessing the spreadsheet and specific sheet
+  initial();
+
+  // Assume initial() function correctly defines the 'sheet' variable
+  // Define the range covering cells from A1 to C3
+  var cellRange = sheet.getRange("A1:C3");
+
+  // Get the last row number within the specified range
+  var lastRow = cellRange.getLastRow();
+
+  // Get the last column number within the specified range
+  var lastColumn = cellRange.getLastColumn();
+
+  // Log the last row and last column numbers to the console
+  console.log({lastRow, lastColumn});
+}
+```
+Key Points:
+
+**Column and Row Identification:**
+  - `getLastRow()` captures the index of the last row within the defined range.
+  - `getLastColumn()` captures the index of the last column within the defined range.
