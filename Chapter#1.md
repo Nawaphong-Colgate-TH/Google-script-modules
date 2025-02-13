@@ -175,4 +175,4 @@ Key Points:
   - `getLastRow()` captures the index of the last row within the defined range.
   - `getLastColumn()` captures the index of the last column within the defined range.
 
-# [Chapter#2](Chapter%232.md) -
+# [Chapter#2](Chapter%232.md) - Function in Google Apps Script
