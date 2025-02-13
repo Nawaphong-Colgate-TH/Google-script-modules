@@ -112,4 +112,5 @@ function myFunction() {
 }
 ```
 Key Points:
-  Range Selection: `getRange(1, 1, 3)` selects cells from A1 to A3 (1 column wide and 3 rows high).
+
+{Range Selection:} `getRange(1, 1, 3)` selects cells from A1 to A3 (1 column wide and 3 rows high).
