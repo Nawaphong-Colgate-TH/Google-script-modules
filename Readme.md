@@ -113,4 +113,29 @@ function myFunction() {
 ```
 Key Points:
 
-{Range Selection:} `getRange(1, 1, 3)` selects cells from A1 to A3 (1 column wide and 3 rows high).
+**Range Selection:** `getRange(1, 1, 3)` selects cells from A1 to A3 (1 column wide and 3 rows high).
+
+
+- `getRange(row, column, numRows, numColumns)`
+```javascript
+function myFunction() {
+  // Call the initial function to set up your sheet environment
+  initial();
+
+  // Assume initial() function defines the 'sheet' variable
+  // Get a range of cells starting from row 1, column 1, spanning 3 rows and 3 columns
+  var cellRange = sheet.getRange(1, 1, 3, 3);
+
+  // Retrieve the current values in the defined cell range
+  var currentValues = cellRange.getValues();
+  
+  // Log the retrieved values to the console. This will be a 2D array representing the range
+  console.log(currentValues);
+
+  // Set all cells in the range to the value 99
+  cellRange.setValue(99);
+}
+```
+Key Points:
+
+**Range Selection:** `getRange(1, 1, 3, 3)` selects a block of cells from A1 to C3, meaning all cells in the first three rows and columns of the sheet.
