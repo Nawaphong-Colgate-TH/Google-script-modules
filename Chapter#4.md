@@ -5,9 +5,9 @@
 
 ### Example
 
-```javascript
-// https://chat.googleapis.com/v1/spaces/AAAAXXXX/messages?key=AIzaSyDdI0hCZtE6vySjMm-XXXXXXXX&token=wQU0Sqd_Qp0QXXROHCXL-XXXXXXX
+`https://chat.googleapis.com/v1/spaces/AAAAXXXX/messages?key=AIzaSyDdI0hCZtE6vySjMm-XXXXXXXX&token=wQU0Sqd_Qp0QXXROHCXL-XXXXXXX`
 
+```javascript
 const secret = {
   url: "https://chat.googleapis.com/v1/spaces/AAAAXXXX/messages",
   key: "AIzaSyDdI0hCZtE6vySjMm-XXXXXXXX",
