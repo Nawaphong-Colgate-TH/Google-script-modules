@@ -60,8 +60,6 @@ function myFunction() {
 
 ## Accessing and Modifying Cell Values
 
-
-- `getRange(row, column)`
 ```javascript
 let sheet;
 
@@ -73,7 +71,11 @@ function initial() {
   // Log the name of the sheet to the console
   console.log(sheet.getName());
 }
+```
 
+
+- `getRange(row, column)`
+```javascript
 function myFunction() {
   initial();
 
