@@ -63,3 +63,7 @@ function AddRecord(first_name, last_name, color) {
 ### Triggers set up
 
 ![Add Trigger](AddTrigger.png)
+
+
+
+# [Chapter#6](Chapter%236.md) - Google Apps Script with Google Drive
