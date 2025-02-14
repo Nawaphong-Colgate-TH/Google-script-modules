@@ -80,10 +80,23 @@ function formResponse(event) {
 ```
 
 ### Export the document to PDF
+
 ```javascript
 // Export the document to PDF
 var pdf = DriveApp.getFileById(copy.getId()).getAs("application/pdf");
 
 // Save the PDF in the same folder with a new name
-templateResponseFolder.createFile(pdf).setName(fileName + '.pdf');
+var pdfFile = templateResponseFolder.createFile(pdf).setName(fileName + '.pdf');
+
+// Get the PDF URL
+var pdfUrl = pdfFile.getUrl();
+```
+
+#### Send an email with the PDF link
+
+```javascript
+function sendEmailWithPdfLink(recipient, subject, pdfUrl) {
+  var body = 'Here is the link to your PDF document: ' + pdfUrl;
+  MailApp.sendEmail(recipient, subject, body);
+}
 ```
