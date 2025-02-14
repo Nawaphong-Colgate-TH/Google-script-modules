@@ -10,3 +10,4 @@
 - [Chapter#4](Chapter%234.md) - Google Apps Script with Google Chat
 - [Chapter#5](Chapter%235.md) - Google Apps Script with Google Forms
 - [Chapter#6](Chapter%236.md) - Google Apps Script with Google Drive
+- [Chapter#7](Chapter%237.md) - Google Apps Script with Google DocsDrive

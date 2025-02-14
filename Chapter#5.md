@@ -24,7 +24,7 @@ function formResponse(e) {
 ### Solution 2
 
 ```javascript
-function onFormSubmit(event) {
+function formResponse(event) {
 
   record_array = []
 

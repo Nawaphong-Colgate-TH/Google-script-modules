@@ -98,3 +98,6 @@ function onOpen() {
     .addToUi(); // เพิ่มเมนูไปยัง UI จริง
 }
 ```
+
+
+# [Chapter#7](Chapter%237.md) - Google Apps Script with Google DocsDrive
